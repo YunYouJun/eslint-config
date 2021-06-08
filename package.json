@@ -5,7 +5,7 @@
   "description": "YunYouJun's ESLint Config",
   "scripts": {
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish"
   },
   "repository": {
     "type": "git",

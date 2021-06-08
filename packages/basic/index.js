@@ -22,9 +22,7 @@ module.exports = {
       files: ["*.json", "*.json5"],
       parser: "jsonc-eslint-parser",
       rules: {
-        quotes: ["error", "double"],
         "quote-props": ["error", "always"],
-        "comma-dangle": ["error", "never"],
       },
     },
     {
@@ -69,4 +67,9 @@ module.exports = {
       },
     },
   ],
+  rules: {
+    "comma-dangle": ["error", "always-multiline"],
+    quotes: ["error", "double"],
+    semi: ["error", "always"],
+  },
 };

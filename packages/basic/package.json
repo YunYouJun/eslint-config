@@ -1,0 +1,44 @@
+{
+  "name": "@yunyoujun/eslint-config-basic",
+  "version": "0.0.1",
+  "description": "My ESLint Config For Basic.",
+  "keywords": [
+    "eslint",
+    "config",
+    "basic"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.22.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.1.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsonc": "^1.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-yml": "^0.8.1",
+    "jsonc-eslint-parser": "^1.0.1",
+    "yaml-eslint-parser": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

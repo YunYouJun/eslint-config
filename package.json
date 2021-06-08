@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config",
+  "version": "0.0.1",
+  "description": "YunYouJun's ESLint Config",
+  "scripts": {
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "pnpm -r publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YunYouJun/eslint-config.git"
+  },
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YunYouJun/eslint-config/issues"
+  },
+  "homepage": "https://github.com/YunYouJun/eslint-config#readme",
+  "devDependencies": {
+    "@yunyoujun/eslint-config": "*",
+    "eslint": "^7.28.0"
+  }
+}

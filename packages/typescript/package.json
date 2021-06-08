@@ -1,0 +1,35 @@
+{
+  "name": "@yunyoujun/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "My ESLint Config For TypeScript.",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.22.0",
+    "typescript": ">=3.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@yunyoujun/eslint-config-basic": "^0.6.5",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

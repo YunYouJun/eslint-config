@@ -1,0 +1,33 @@
+{
+  "name": "@yunyoujun/eslint-config",
+  "version": "0.0.1",
+  "description": "My ESLint Config.",
+  "keywords": [
+    "eslint",
+    "config",
+    "yunyoujun"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "email": "me@yunyoujun.cn",
+    "name": "YunYouJun",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.22.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@yunyoujun/eslint-config-react": "^0.0.1",
+    "@yunyoujun/eslint-config-vue": "^0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}

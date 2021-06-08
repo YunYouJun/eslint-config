@@ -25,7 +25,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@yunyoujun/eslint-config-basic": "^0.6.5",
+    "@yunyoujun/eslint-config-basic": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0"
   },

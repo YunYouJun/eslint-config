@@ -68,6 +68,10 @@ module.exports = {
     },
   ],
   rules: {
+    // import
+    "import/no-unresolved": "off",
+
+    // common
     "comma-dangle": ["error", "always-multiline"],
     quotes: ["error", "double"],
     semi: ["error", "always"],

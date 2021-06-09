@@ -1,6 +1,6 @@
 {
   "name": "@yunyoujun/eslint-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My ESLint Config.",
   "keywords": [
     "eslint",
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@yunyoujun/eslint-config-react": "^0.0.4",
-    "@yunyoujun/eslint-config-vue": "^0.0.4"
+    "@yunyoujun/eslint-config-react": "^0.0.5",
+    "@yunyoujun/eslint-config-vue": "^0.0.5"
   },
   "devDependencies": {
     "eslint": "^7.22.0"

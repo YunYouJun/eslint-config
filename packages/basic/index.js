@@ -71,5 +71,6 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     quotes: ["error", "double"],
     semi: ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
   },
 };

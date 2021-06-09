@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/YunYouJun/eslint-config#readme",
   "devDependencies": {
-    "@yunyoujun/eslint-config": "*",
+    "@yunyoujun/eslint-config": "workspace:*",
     "eslint": "^7.28.0",
     "lerna": "^4.0.0",
     "typescript": "^4.3.2"

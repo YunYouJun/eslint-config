@@ -3,10 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "description": "YunYouJun's ESLint Config",
-  "scripts": {
-    "lint": "npx eslint --ext .js,.json,.vue --fix .",
-    "release": "lerna publish"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YunYouJun/eslint-config.git"
@@ -16,7 +13,10 @@
     "name": "YunYouJun",
     "url": "https://www.yunyoujun.cn"
   },
-  "license": "MIT",
+  "scripts": {
+    "lint": "npx eslint --ext .js,.json,.vue --fix .",
+    "release": "lerna publish"
+  },
   "bugs": {
     "url": "https://github.com/YunYouJun/eslint-config/issues"
   },

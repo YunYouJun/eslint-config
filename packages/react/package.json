@@ -8,10 +8,6 @@
     "react"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "YunYouJun",
@@ -20,6 +16,10 @@
   "files": [
     "index.js"
   ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7.22.0"
   },

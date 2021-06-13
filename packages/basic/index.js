@@ -5,7 +5,7 @@ module.exports = {
     node: true,
   },
   extends: [
-    "standard",
+    "plugin:prettier/recommended",
     "plugin:import/recommended",
     "plugin:eslint-comments/recommended",
     "plugin:jsonc/recommended-with-jsonc",
@@ -23,6 +23,7 @@ module.exports = {
       parser: "jsonc-eslint-parser",
       rules: {
         "quote-props": ["error", "always"],
+        "comma-dangle": ["error", "never"],
       },
     },
     {
@@ -70,11 +71,5 @@ module.exports = {
   rules: {
     // import
     "import/no-unresolved": "off",
-
-    // common
-    "comma-dangle": ["error", "always-multiline"],
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
-    "space-before-function-paren": ["error", "never"],
   },
 };

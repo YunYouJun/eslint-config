@@ -8,10 +8,6 @@
     "basic"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "author": {
     "email": "me@yunyoujun.cn",
     "name": "YunYouJun",
@@ -20,6 +16,10 @@
   "files": [
     "index.js"
   ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
   "peerDependencies": {
     "eslint": ">=7.22.0"
   },
@@ -27,12 +27,12 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.2",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsonc": "^1.2.1",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-yml": "^0.8.1",
     "jsonc-eslint-parser": "^1.0.1",

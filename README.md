@@ -2,6 +2,33 @@
 
 My custom eslint config.
 
+## Usage
+
+### Install Dependencies
+
+```bash
+pnpm add -D eslint @yunyoujun/eslint-config
+```
+
+### Extends Config
+
+Create a new file called `.eslintrc`
+
+```json
+// .eslintrc
+{
+  "extends": "@yunyoujun"
+}
+```
+
+Create a new file called `.eslintignore`
+
+```txt
+dist
+node_modules
+public
+```
+
 ## Packages
 
 | Name                                               | Version                                                                                                                             |

@@ -29,6 +29,17 @@ node_modules
 public
 ```
 
+### Add Script
+
+```json
+// package.json
+{
+  "scripts": {
+    "lint": "npx eslint --ext .js,.ts,.json,.vue --fix ."
+  }
+}
+```
+
 ## Packages
 
 | Name                                               | Version                                                                                                                             |
@@ -42,7 +53,13 @@ public
 ## Base
 
 - [ESLint](https://eslint.org/)
-- [@antfu/eslint-config](https://github.com/antfu/eslint-config): I referred to this configuration and simplified some configurations that I don't need.
+
+## Ref
+
+I referred to them and simplified some configurations that I don't need.
+
+- [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+- [@nuxt/eslint-config](https://github.com/nuxt/eslint-config)
 
 ## Release
 

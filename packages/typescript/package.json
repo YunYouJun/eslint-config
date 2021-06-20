@@ -1,6 +1,6 @@
 {
   "name": "@yunyoujun/eslint-config-ts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "My ESLint Config For TypeScript.",
   "keywords": [
     "eslint",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
-    "@yunyoujun/eslint-config-basic": "^0.2.0"
+    "@yunyoujun/eslint-config-basic": "^0.2.1"
   },
   "devDependencies": {
     "eslint": "^7.22.0"

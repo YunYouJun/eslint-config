@@ -40,6 +40,17 @@ public
 }
 ```
 
+### Prettier
+
+Custom `.prettierrc`.
+
+```json
+{
+  "semi": false,
+  "singleQuote": true
+}
+```
+
 ## Packages
 
 | Name                                               | Version                                                                                                                             |

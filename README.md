@@ -1,6 +1,12 @@
-# eslint-config
+# eslint-config (Archived)
 
-My custom eslint config.
+> My custom eslint config.
+
+I found that a custom set of eslint seems to be unnecessary, follow the code style of famous developers is a good practice.
+
+For example:
+
+- [@antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 ## Usage
 
